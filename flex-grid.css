@@ -1,3 +1,54 @@
+.d-block {
+	display: block;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.rounded-pill {
+	border-radius: 30px;
+}
+
+.rounded {
+	border-radius: 5px;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.t-end {
+	text-align: right;
+}
+
+.t-start {
+	text-align: left;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.vh-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
 .container {
 	width: 100%;
 	padding-left: 1.5rem;
@@ -14,54 +65,54 @@
 
 .flex-wrap {
 	-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .justify-start {
 	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 }
 
 .justify-end {
 	-webkit-box-pack: end;
-	    -ms-flex-pack: end;
-	        justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 
 .justify-center {
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .justify-between {
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .justify-around {
 	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	justify-content: space-around;
 }
 
 .align-start {
 	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
 }
 
 .align-end {
 	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
 }
 
 .align-center {
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .flex-row {
@@ -80,14 +131,40 @@
 	flex: 0 0 auto;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	-ms-flex-negative: 0;
+	    flex-shrink: 0;
 	width: 100%;
 	max-width: 100%;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
-/*	margin-bottom: 3rem; */
+	margin-bottom: 3rem;
 }
 
 @media (min-width: 576px) {
+
+	.d-sm-block {
+		display: block;
+	}
+
+	.d-sm-inline {
+		display: inline;
+	}
+
+	.d-sm-inline-block {
+		display: inline-block;
+	}
+
+	.t-sm-center {
+		text-align: center;
+	}
+
+	.t-sm-end {
+		text-align: right;
+	}
+
+	.t-sm-start {
+		text-align: left;
+	}
 
 	.container {
 		max-width: 540px;
@@ -144,6 +221,30 @@
 
 @media (min-width: 768px) {
 
+	.d-md-block {
+		display: block;
+	}
+
+	.d-md-inline {
+		display: inline;
+	}
+
+	.d-md-inline-block {
+		display: inline-block;
+	}
+
+	.t-md-center {
+		text-align: center;
+	}
+
+	.t-md-end {
+		text-align: right;
+	}
+
+	.t-md-start {
+		text-align: left;
+	}
+
 	.container {
 		max-width: 720px;
 	}
@@ -198,6 +299,30 @@
 }
 
 @media (min-width: 992px) {
+
+	.d-lg-block {
+		display: block;
+	}
+
+	.d-lg-inline {
+		display: inline;
+	}
+
+	.d-lg-inline-block {
+		display: inline-block;
+	}
+
+	.t-lg-center {
+		text-align: center;
+	}
+
+	.t-lg-end {
+		text-align: right;
+	}
+
+	.t-lg-start {
+		text-align: left;
+	}
 
 	.container {
 		max-width: 960px;
@@ -254,8 +379,32 @@
 
 @media (min-width: 1200px) {
 
+	.d-xl-block {
+		display: block;
+	}
+
+	.d-xl-inline {
+		display: inline;
+	}
+
+	.d-xl-inline-block {
+		display: inline-block;
+	}
+
+	.t-xl-center {
+		text-align: center;
+	}
+
+	.t-xl-end {
+		text-align: right;
+	}
+
+	.t-xl-start {
+		text-align: left;
+	}
+
 	.container {
-		max-width: 1140px;
+		max-width: 1170px;
 	}
 
 	.item-xl-1 {
@@ -308,6 +457,30 @@
 }
 
 @media (min-width: 1400px) {
+
+	.d-xxl-block {
+		display: block;
+	}
+
+	.d-xxl-inline {
+		display: inline;
+	}
+
+	.d-xxl-inline-block {
+		display: inline-block;
+	}
+
+	.t-xxl-center {
+		text-align: center;
+	}
+
+	.t-xxl-end {
+		text-align: right;
+	}
+
+	.t-xxl-start {
+		text-align: left;
+	}
 
 	.container {
 		max-width: 1320px;
